@@ -9,6 +9,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta name="baidu-site-verification" content="codeva-xnnhG0u6Pu">
 
 <link rel="stylesheet" href="/css/main.css">
 
@@ -17,7 +18,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"www.bestarnold.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"www.bestarnold.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
   <meta name="description" content="Elasticsearch是一个基于Lucene库的搜索引擎。它提供了一个分布式、支持多租户的全文搜索引擎，具有HTTP Web接口和无模式JSON文档。">
@@ -174,7 +175,7 @@
     <link itemprop="mainEntityOfPage" href="http://www.bestarnold.com/2020/04/02/summary/2020-04-02/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/avatar/avatar.jpg">
       <meta itemprop="name" content="Arnold Shu">
       <meta itemprop="description" content="技术 生活 思考">
     </span>
@@ -213,7 +214,21 @@
                 </span>
             </span>
 
-          
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>10k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>10 分钟</span>
+            </span>
 
         </div>
       </header>
@@ -225,45 +240,46 @@
 
       
         <p>Elasticsearch是一个基于Lucene库的搜索引擎。它提供了一个分布式、支持多租户的全文搜索引擎，具有HTTP Web接口和无模式JSON文档。</p>
-<a id="more"></a>
+<span id="more"></span>
 <h1 id="ELK-Elasticsearch、Logstash、Kibana"><a href="#ELK-Elasticsearch、Logstash、Kibana" class="headerlink" title="ELK(Elasticsearch、Logstash、Kibana)"></a>ELK(Elasticsearch、Logstash、Kibana)</h1><h2 id="ElasticSearch"><a href="#ElasticSearch" class="headerlink" title="ElasticSearch"></a>ElasticSearch</h2><p>Elasticsearch是一个基于Lucene库的搜索引擎。它提供了一个分布式、支持多租户的全文搜索引擎，具有HTTP Web接口和无模式JSON文档。</p>
 <h3 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h3><p>分布式的实时文件存储,每个字段都能被索引<br>分布式的实时分析搜索引擎,不规则查询<br>高拓展性PB级数量级,可处理结构和非结构化数据</p>
 <h3 id="应用场景"><a href="#应用场景" class="headerlink" title="应用场景"></a>应用场景</h3><p>全文检索(全字段查询)<br>模糊查询(搜索)<br>数据分析(提供分析语法)</p>
 <h3 id="es安装"><a href="#es安装" class="headerlink" title="es安装"></a>es安装</h3><ol>
 <li>首先装好java环境以及静态网络配置</li>
 <li>下载好安装包到指定目录下,解压安装<br>linux添加一个用户es<br>adduser es<br>passwd es </li>
-<li>授权es用户给指定的安装目录<br>chown -R es:es /usr/elastic_search/es </li>
-<li>用es账户启动elasticSearch<br>./elasticsearch</li>
+<li>授权es用户给指定的安装目录<br>chown -R es:es &#x2F;usr&#x2F;elastic_search&#x2F;es </li>
+<li>用es账户启动elasticSearch<br>.&#x2F;elasticsearch</li>
 <li>本机检验是否启动成功<br>curl 127.0.0.1:9200</li>
 <li>其他主机校验成功<br>需要修改配置文件elasticsearch.yml<br>network.host参数为你的静态ip或者主机名</li>
 </ol>
 <h3 id="安装中问题解决"><a href="#安装中问题解决" class="headerlink" title="安装中问题解决"></a>安装中问题解决</h3><p><strong>再次启动报错</strong><br>[1]: max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]<br>[2]: max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]</p>
-<p><strong>解决</strong><br>vim /etc/security/limits.conf<br>在end之前添加下面信息</p>
+<p><strong>解决</strong><br>vim &#x2F;etc&#x2F;security&#x2F;limits.conf<br>在end之前添加下面信息</p>
 <ul>
 <li>hard nofile 65536</li>
 <li>soft nofile 131072</li>
 <li>hard nproc 4096</li>
 <li>soft nproc 2048<br>参数说明<br>nofile 打开文件的最大数目<br>nproc 进程的最大数目<br>hard 当前系统生效的设置值<br>soft 系统中所能设置的最大值</li>
 </ul>
-<p>vim /etc/sysctl.conf<br>插入下面信息<br>vm.max_map_count=655360<br>fs.file-max=655360<br>参数说明<br>vm.max_map_count 单个jvm能开启的最大线程数<br>fs.file-max 系统所有进程一共可以打开的文件数量 </p>
+<p>vim &#x2F;etc&#x2F;sysctl.conf<br>插入下面信息<br>vm.max_map_count&#x3D;655360<br>fs.file-max&#x3D;655360<br>参数说明<br>vm.max_map_count 单个jvm能开启的最大线程数<br>fs.file-max 系统所有进程一共可以打开的文件数量 </p>
 <p>让修改生效<br>sysctl -p</p>
 <p>在浏览器访问<a target="_blank" rel="noopener" href="http://hadoop1:9200/,%E7%9C%8B%E5%88%B0%E4%B8%8B%E9%9D%A2%E6%B6%88%E6%81%AF%E5%B0%B1%E6%88%90%E5%8A%9F%E4%BA%86">http://hadoop1:9200/,看到下面消息就成功了</a><br>{<br>  “name” : “hR4B3zp”,<br>  “cluster_name” : “elasticsearch”,<br>  “cluster_uuid” : “b-d3OuvoRimcc951UCxdvw”,<br>  “version” : {<br>    “number” : “6.3.1”,<br>    “build_flavor” : “default”,<br>    “build_type” : “tar”,<br>    “build_hash” : “eb782d0”,<br>    “build_date” : “2018-06-29T21:59:26.107521Z”,<br>    “build_snapshot” : false,<br>    “lucene_version” : “7.3.1”,<br>    “minimum_wire_compatibility_version” : “5.6.0”,<br>    “minimum_index_compatibility_version” : “5.0.0”<br>  },<br>  “tagline” : “You Know, for Search”<br>}</p>
-<h3 id="es的集群安装"><a href="#es的集群安装" class="headerlink" title="es的集群安装"></a>es的集群安装</h3><p>修改配置文件elasticsearch.yml<br>vim /elasticsearch.yml</p>
+<h3 id="es的集群安装"><a href="#es的集群安装" class="headerlink" title="es的集群安装"></a>es的集群安装</h3><p>修改配置文件elasticsearch.yml<br>vim &#x2F;elasticsearch.yml</p>
 <p>配置参数</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">cluster.name: arnold-application <span class="comment">#集群名字，可自定义</span></span><br><span class="line"></span><br><span class="line">node.master: <span class="literal">true</span>  <span class="comment">#设置为主节点</span></span><br><span class="line"></span><br><span class="line">node.data: <span class="literal">true</span>   <span class="comment">#设置为数据节点</span></span><br><span class="line"></span><br><span class="line">node.name: hadoop-1  <span class="comment">#节点名字可自定义</span></span><br><span class="line"></span><br><span class="line">path.data: /usr/elk/es_data 	<span class="comment">#es数据路径</span></span><br><span class="line"></span><br><span class="line">path.logs: /usr/elk/es_logs		<span class="comment">#es日志路径</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">network.host: hadoop1 	<span class="comment">#主机名</span></span><br><span class="line"></span><br><span class="line">http.port: 9200		<span class="comment">#端口</span></span><br><span class="line"></span><br><span class="line">discovery.zen.ping.unicast.hosts: [<span class="string">&quot;hadoop2&quot;</span>, <span class="string">&quot;hadoop3&quot;</span>]  	<span class="comment">#集群通信主机名配置</span></span><br><span class="line"></span><br><span class="line">transport.tcp.port: 9300 		<span class="comment">#集群通信端口</span></span><br><span class="line"></span><br><span class="line">discovery.zen.minimum_master_nodes: 3			<span class="comment">#集群节点最少数目，避免脑裂最好设置半数+1</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="安装head插件-管控es集群的插件"><a href="#安装head插件-管控es集群的插件" class="headerlink" title="安装head插件(管控es集群的插件)"></a>安装head插件(管控es集群的插件)</h3><ol>
 <li>安装nodejs</li>
 <li>下载地址<br><a target="_blank" rel="noopener" href="https://github.com/mobz/elasticsearch-head">https://github.com/mobz/elasticsearch-head</a></li>
-<li>配置<br><a href="%E9%85%8D%E7%BD%AE%20https://blog.csdn.net/Mr_Mocha/article/details/89175469">https://blog.csdn.net/Mr_Mocha/article/details/89175469</a></li>
-<li>配置文件添加<br>elasticsearch默认不支持第三方插件，head插件在elasticsearch5+版本后被移除elasticsearch，需要配置config/elasticsearch.yml<br>文件末尾插入代码：<br>#allow origin<br>http.cors.enabled: true<br>http.cors.allow-origin: “*”</li>
+<li>配置<br><a href="%E9%85%8D%E7%BD%AE%20https://blog.csdn.net/Mr_Mocha/article/details/89175469">https://blog.csdn.net/Mr_Mocha&#x2F;article&#x2F;details&#x2F;89175469</a></li>
+<li>配置文件添加<br>elasticsearch默认不支持第三方插件，head插件在elasticsearch5+版本后被移除elasticsearch，需要配置config&#x2F;elasticsearch.yml<br>文件末尾插入代码：</li>
 </ol>
+<p>#allow origin<br>http.cors.enabled: true<br>http.cors.allow-origin: “*”</p>
 <h3 id="head集群中的status显示状态"><a href="#head集群中的status显示状态" class="headerlink" title="head集群中的status显示状态"></a>head集群中的status显示状态</h3><p>green 所有主要分片和复制分片都可用<br>yellow 所有主要分片可用，但不是所有复制分片都可用<br>red 不是所有的主要分片可用</p>
 <h3 id="集群术语定义"><a href="#集群术语定义" class="headerlink" title="集群术语定义"></a>集群术语定义</h3><p><strong>索引</strong>：一个用来指向一个或多个分片(shards)的逻辑命名空间<br><strong>分片</strong>(shard):一个最小级别的工作单元,只是保存索引中所有数据的一部分，是一个lucene实例，本身就是一个完成的搜索引擎，我们的文档存储在索引中，可以把分片想象成数据的容器，文档存储在分片中，然后分片分配到集群的节点上<br><strong>主分片</strong>：索引中的每个文档属于一个单独的主分片，所以主分片的数量决定了索引最多能存储多少数据<br><strong>副分片</strong>：复制分片只是主分片的一个副本，可以提供读请求<br><strong>故障转移</strong>：文档索引主要被存储在主分片中，然后复制到对应的副分片上，主副节点可做到相互转换，并且放着数据挂掉之后的数据完整性问题</p>
 <h3 id="es存储方式"><a href="#es存储方式" class="headerlink" title="es存储方式"></a>es存储方式</h3><p>面向文档<br>json</p>
 <h3 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h3><p>一个索引库index下,老版本还有多个type,后期版本中就存在一个type,多个document,一个document就是一条数据,有多个field</p>
 <h3 id="一些常用命令-可在kibana下的Dev-Tools进行相关命令操作"><a href="#一些常用命令-可在kibana下的Dev-Tools进行相关命令操作" class="headerlink" title="一些常用命令(可在kibana下的Dev Tools进行相关命令操作)"></a>一些常用命令(可在kibana下的Dev Tools进行相关命令操作)</h3><p><strong>创建一个文档数据</strong></p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">PUT &#123;Index&#125;/&#123;<span class="built_in">type</span>&#125;/&#123;id&#125;</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line">eg:POST arnold/doc/1</span><br><span class="line">&#123;</span><br><span class="line">  <span class="string">&quot;name&quot;</span>:<span class="string">&quot;arnold&quot;</span>,</span><br><span class="line">  <span class="string">&quot;age&quot;</span>:18</span><br><span class="line">&#125;</span><br><span class="line">arnold可理解成一个索引数据库</span><br><span class="line">doc为<span class="built_in">type</span>类型</span><br><span class="line">1 _id 主键</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">PUT &#123;Index&#125;/&#123;<span class="built_in">type</span>&#125;/&#123;<span class="built_in">id</span>&#125;</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line">eg:POST arnold/doc/1</span><br><span class="line">&#123;</span><br><span class="line">  <span class="string">&quot;name&quot;</span>:<span class="string">&quot;arnold&quot;</span>,</span><br><span class="line">  <span class="string">&quot;age&quot;</span>:18</span><br><span class="line">&#125;</span><br><span class="line">arnold可理解成一个索引数据库</span><br><span class="line">doc为<span class="built_in">type</span>类型</span><br><span class="line">1 _id 主键</span><br></pre></td></tr></table></figure>
 
 <p><strong>批量插入文档(对象之间不能有\n)</strong></p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">POST &#123;Index&#125;/&#123;<span class="built_in">type</span>&#125;/_bulk</span><br><span class="line">&#123;</span><br><span class="line">	<span class="string">&quot;index&quot;</span>:&#123;</span><br><span class="line">	<span class="string">&quot;_id&quot;</span>:1</span><br><span class="line">	&#125;</span><br><span class="line">	&#123;</span><br><span class="line">		数据实体对象</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="string">&quot;index&quot;</span>:&#123;</span><br><span class="line">	<span class="string">&quot;_id&quot;</span>:2</span><br><span class="line">	&#125;</span><br><span class="line">	&#123;</span><br><span class="line">		数据实体对象</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -300,7 +316,7 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GET /arnold,index1,index2/_search</span><br></pre></td></tr></table></figure>
 
 <p><strong>指定字段查询</strong></p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">GET /arnold/_search?q=name:arnold</span><br><span class="line"></span><br><span class="line">GET /arnold/_search?q=keyword&amp;df=name&amp;sort=age:asc&amp;from=4&amp;size=10&amp;timeout=10s</span><br><span class="line">q:指定查询语句</span><br><span class="line">df(q):指定相应字段,不指定默认全文检索</span><br><span class="line">sort:排序,升序降序</span><br><span class="line">timeout:指定默认超时时间,默认不超时</span><br><span class="line">from ,size:分页 </span><br><span class="line">term:单词查询,多个单词的或查询</span><br><span class="line">phrase:词语查询,短语的先后顺序也是匹配条件,<span class="string">&quot;&quot;</span>引起来查询</span><br><span class="line">group:使用()指定匹配规则</span><br><span class="line">布尔操作符:AND(&amp;&amp;),OR(||)NOT(!)</span><br><span class="line">+,-:对应must和must_not </span><br><span class="line">范围查询:区间[TO]闭区间,&#123;TO&#125;开区间</span><br><span class="line">算术符号写法:&gt;,&lt;,=</span><br><span class="line">通配符查询:?,*	</span><br><span class="line">正则表达式</span><br><span class="line">模糊查询:~</span><br><span class="line">近似度查询</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">GET /arnold/_search?q=name:arnold</span><br><span class="line"></span><br><span class="line">GET /arnold/_search?q=keyword&amp;<span class="built_in">df</span>=name&amp;<span class="built_in">sort</span>=age:asc&amp;from=4&amp;size=10&amp;<span class="built_in">timeout</span>=10s</span><br><span class="line">q:指定查询语句</span><br><span class="line"><span class="built_in">df</span>(q):指定相应字段,不指定默认全文检索</span><br><span class="line"><span class="built_in">sort</span>:排序,升序降序</span><br><span class="line"><span class="built_in">timeout</span>:指定默认超时时间,默认不超时</span><br><span class="line">from ,size:分页 </span><br><span class="line">term:单词查询,多个单词的或查询</span><br><span class="line">phrase:词语查询,短语的先后顺序也是匹配条件,<span class="string">&quot;&quot;</span>引起来查询</span><br><span class="line">group:使用()指定匹配规则</span><br><span class="line">布尔操作符:AND(&amp;&amp;),OR(||)NOT(!)</span><br><span class="line">+,-:对应must和must_not </span><br><span class="line">范围查询:区间[TO]闭区间,&#123;TO&#125;开区间</span><br><span class="line">算术符号写法:&gt;,&lt;,=</span><br><span class="line">通配符查询:?,*	</span><br><span class="line">正则表达式</span><br><span class="line">模糊查询:~</span><br><span class="line">近似度查询</span><br></pre></td></tr></table></figure>
 
 <h3 id="search-Request-Body-Search-API"><a href="#search-Request-Body-Search-API" class="headerlink" title="search(Request Body Search) API"></a>search(Request Body Search) API</h3><p><strong>Match Query(字段类查询)</strong></p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">Get arnold/_search</span><br><span class="line">&#123;</span><br><span class="line">	<span class="string">&quot;profile&quot;</span>:<span class="literal">true</span>,				<span class="comment">#显示执行计划</span></span><br><span class="line">	<span class="string">&quot;query&quot;</span>:&#123;</span><br><span class="line">		<span class="string">&quot;match&quot;</span>：&#123;</span><br><span class="line">			<span class="string">&quot;name&quot;</span>:<span class="string">&quot;xiaohong&quot;</span>,</span><br><span class="line">			<span class="string">&quot;operator&quot;</span>:<span class="string">&quot;and&quot;</span></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125; </span><br></pre></td></tr></table></figure>
@@ -328,14 +344,12 @@
 <p><strong>分词机制</strong><br>character filter 对原始文本进行处理<br>tokenizer 将原始文本进行分词<br>token filters 将分词后的关键词进行加工 </p>
 <p><strong>es自带的分词器</strong><br>Standard(默认分词器) 支持多语言,按词切分并做小写处理<br>Simple 按照非字母切分,小写处理<br>Whitespace 按照空格来切分<br>Stop 去除语气助词<br>Keyword 不分词<br>Pattern 正则分词,默认\w,即非字词符号做分隔符<br>Language 常见语言分词器<br>中文分词器<br>IK分词器(ik_smart,ik_max_word) 中英文单词切分,自定义词库<br>Jieba python流行分词系统,支持分词和词性标注,支持繁体,自定义,并行分词<br>Hanlp 一系列的模型与算法组成的java 工具包,普及自然语言处理在生产环境中的应用<br>THULAC 清华大学中文词法分析工具包 具有中文分词和词性标注功能</p>
 <p><strong>相关性算分</strong><br>指文档与查询语句的相关度，通过倒排索引可以获取与查询语句相匹配的文档列表</p>
-<p><strong>影响相关度算分的参数</strong><br><strong>TF(Term Frequency)**词频，单词在文档中出现的次数，词频越高，相关度越高<br>**DF(Document Frequency)**文档词频，单词出现的文档数<br>**IDF(Inverse Document Frequency)</strong>,反转文档词频，1/DF,即单词出现文档数越少，相关度越高<br><strong>Field-length Norm</strong> 文档越短，相关度越高 </p>
+<p><strong>影响相关度算分的参数</strong><br>**TF(Term Frequency)**词频，单词在文档中出现的次数，词频越高，相关度越高<br>**DF(Document Frequency)**文档词频，单词出现的文档数<br><strong>IDF(Inverse Document Frequency)</strong>,反转文档词频，1&#x2F;DF,即单词出现文档数越少，相关度越高<br><strong>Field-length Norm</strong> 文档越短，相关度越高 </p>
 <h2 id="Logstash"><a href="#Logstash" class="headerlink" title="Logstash"></a>Logstash</h2><p>Logstash是一个开源数据收集引擎，具有实时管道功能,主要负责数据清洗(input,filter,output)</p>
 <h3 id="主要组件"><a href="#主要组件" class="headerlink" title="主要组件"></a>主要组件</h3><p>input 输入<br>filter 过滤(Grok 匹配需搜集的字段,Date处理日期类型，Geoip 添加地理位置信息 Useragent 提取请求用户信息)<br>output 输出 </p>
 <h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><ol>
 <li>解压安装包到指定的文件夹下</li>
-<li>执行logstash<br>./logstash 相应的配置文件（eg:./test.conf）<br>安装input脚本，测试是否安装成功<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">input &#123;</span><br><span class="line">	stdin&#123;&#125;  //模拟输入</span><br><span class="line">&#125;</span><br><span class="line">output &#123;</span><br><span class="line">	stdout &#123;codec=&gt;<span class="string">&quot;rubydebug&quot;</span>&#125; //调试输出</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-</li>
+<li>执行logstash<br>.&#x2F;logstash 相应的配置文件（eg:.&#x2F;test.conf）<br>安装input脚本，测试是否安装成功<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">input &#123;</span><br><span class="line">	stdin&#123;&#125;  //模拟输入</span><br><span class="line">&#125;</span><br><span class="line">output &#123;</span><br><span class="line">	stdout &#123;codec=&gt;<span class="string">&quot;rubydebug&quot;</span>&#125; //调试输出</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 </ol>
 <h3 id="input-插件"><a href="#input-插件" class="headerlink" title="input 插件"></a>input 插件</h3><p>stdin 输入插件（管道输入，也可以终端交互输入）<br>通用配置属性<br>codec<br>type string自定义该事件类型可作为收集数据的区别字段，可用于后续判断<br>tags array自定义事件的tag，可用于后续判断<br>add_field 类型为hash,为该事件添加字段</p>
 <h3 id="file插件"><a href="#file插件" class="headerlink" title="file插件"></a>file插件</h3><p><strong>从文件读取数据</strong></p>
@@ -346,14 +360,14 @@
 
 <h3 id="filter插件"><a href="#filter插件" class="headerlink" title="filter插件"></a>filter插件</h3><p>可对数据进行丰富的处理，解析数据，删除字段，类型装换等</p>
 <p><strong>配置属性</strong></p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">date 日期解析</span><br><span class="line">grok 正则解析</span><br><span class="line">dissect 分隔符解析</span><br><span class="line">mutate 对字段处理，重命名，删除，替换等</span><br><span class="line">json 按照json解析字段内容到指定字段中</span><br><span class="line">geoip  添加地理位置信息</span><br><span class="line">ruby  利用ruby代码动态修改logstash event </span><br><span class="line">input &#123;</span><br><span class="line">	stdin&#123;</span><br><span class="line">		codec=&gt;<span class="string">&quot;json&quot;</span></span><br><span class="line">	&#125;  </span><br><span class="line">&#125;</span><br><span class="line">filter &#123;</span><br><span class="line">	date &#123;</span><br><span class="line">		match =&gt;[<span class="string">&quot;logdate&quot;</span>,<span class="string">&quot;yyyy HH:mm:ss&quot;</span>]</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">output &#123;</span><br><span class="line">	stdout &#123;codec=&gt;<span class="string">&quot;rubydebug&quot;</span>&#125; //调试输出</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">date</span> 日期解析</span><br><span class="line">grok 正则解析</span><br><span class="line">dissect 分隔符解析</span><br><span class="line">mutate 对字段处理，重命名，删除，替换等</span><br><span class="line">json 按照json解析字段内容到指定字段中</span><br><span class="line">geoip  添加地理位置信息</span><br><span class="line">ruby  利用ruby代码动态修改logstash event </span><br><span class="line">input &#123;</span><br><span class="line">	stdin&#123;</span><br><span class="line">		codec=&gt;<span class="string">&quot;json&quot;</span></span><br><span class="line">	&#125;  </span><br><span class="line">&#125;</span><br><span class="line">filter &#123;</span><br><span class="line">	<span class="built_in">date</span> &#123;</span><br><span class="line">		match =&gt;[<span class="string">&quot;logdate&quot;</span>,<span class="string">&quot;yyyy HH:mm:ss&quot;</span>]</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">output &#123;</span><br><span class="line">	stdout &#123;codec=&gt;<span class="string">&quot;rubydebug&quot;</span>&#125; //调试输出</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h3 id="output插件"><a href="#output插件" class="headerlink" title="output插件"></a>output插件</h3><p>和input插件一样可以从文件读取，从es读取</p>
 <h2 id="Kibana"><a href="#Kibana" class="headerlink" title="Kibana"></a>Kibana</h2><h3 id="安装-1"><a href="#安装-1" class="headerlink" title="安装"></a>安装</h3><ol>
 <li>下载好安装包到指定目录下,解压安装</li>
-<li>修改config下的配合文件让kinbana与elasticSearch关联,修改端口号server.port: 5601,server.host: “localhost”,elasticsearch.url: “<a href="http://hadoop1:9200&quot;,kibana.index">http://hadoop1:9200&quot;,kibana.index</a>: “.kibana”</li>
-<li>在bin目录下启动kibana,执行./kibana 启动</li>
-<li>在浏览器可访问:主机名或者ip:5601 </li>
+<li>修改config下的配合文件让kinbana与elasticSearch关联,修改端口号server.port: 5601,server.host: “localhost”,elasticsearch.url: “<a target="_blank" rel="noopener" href="http://hadoop1:9200",kibana.index">http://hadoop1:9200&quot;,kibana.index</a>: “.kibana”</li>
+<li>在bin目录下启动kibana,执行.&#x2F;kibana 启动</li>
+<li>在浏览器可访问:主机名或者ip:5601</li>
 </ol>
 <h3 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h3><p>可在<strong>management</strong>下面添加索引字段<br>下面filed可选添加</p>
 <p>可在<strong>visualize</strong>下面生成图表</p>
@@ -450,6 +464,8 @@
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Arnold Shu"
+      src="/images/avatar/avatar.jpg">
   <p class="site-author-name" itemprop="name">Arnold Shu</p>
   <div class="site-description" itemprop="description">技术 生活 思考</div>
 </div>
@@ -503,8 +519,20 @@
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Arnold Shu</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+      <span class="post-meta-item-text">站点总字数：</span>
+    <span title="站点总字数">78k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">1:11</span>
 </div>
-  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
 
         

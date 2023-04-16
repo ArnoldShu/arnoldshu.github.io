@@ -9,6 +9,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta name="baidu-site-verification" content="codeva-xnnhG0u6Pu">
 
 <link rel="stylesheet" href="/css/main.css">
 
@@ -17,7 +18,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"www.bestarnold.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"www.bestarnold.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
   <meta name="description" content="Centos7虚拟机(VMware 12 Pro)静态IP配置">
@@ -179,7 +180,7 @@
     <link itemprop="mainEntityOfPage" href="http://www.bestarnold.com/2020/09/22/summary/2020-09-22/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/avatar/avatar.jpg">
       <meta itemprop="name" content="Arnold Shu">
       <meta itemprop="description" content="技术 生活 思考">
     </span>
@@ -218,7 +219,21 @@
                 </span>
             </span>
 
-          
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>1.4k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
 
         </div>
       </header>
@@ -230,20 +245,20 @@
 
       
         <p>Centos7虚拟机(VMware 12 Pro)静态IP配置</p>
-<a id="more"></a>
+<span id="more"></span>
 <h2 id="Centos7虚拟机-VMware-12-Pro-静态IP配置"><a href="#Centos7虚拟机-VMware-12-Pro-静态IP配置" class="headerlink" title="Centos7虚拟机(VMware 12 Pro)静态IP配置"></a>Centos7虚拟机(VMware 12 Pro)静态IP配置</h2><h3 id="虚拟机网络配置"><a href="#虚拟机网络配置" class="headerlink" title="虚拟机网络配置"></a>虚拟机网络配置</h3><p><img src="https://img-blog.csdnimg.cn/20200922182301585.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIwMzQwNTQ3,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20200922193346771.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIwMzQwNTQ3,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
 <p><img src="https://img-blog.csdnimg.cn/20200922193528702.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIwMzQwNTQ3,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>选择VMnet8Nat模式更改<br><img src="https://img-blog.csdnimg.cn/20200922193745637.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIwMzQwNTQ3,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>修改好之后点击应用,然后确定</p>
 <h3 id="虚拟机系统网络配置"><a href="#虚拟机系统网络配置" class="headerlink" title="虚拟机系统网络配置"></a>虚拟机系统网络配置</h3><ol>
-<li><p><strong>修改虚拟机的配置/etc/sysconfig/network-scripts/网卡名称 如下图</strong><br><img src="https://img-blog.csdnimg.cn/20200922194545202.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIwMzQwNTQ3,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<li><p><strong>修改虚拟机的配置&#x2F;etc&#x2F;sysconfig&#x2F;network-scripts&#x2F;网卡名称 如下图</strong><br><img src="https://img-blog.csdnimg.cn/20200922194545202.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIwMzQwNTQ3,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
 </li>
 <li><p><strong>网卡基本配置信息示意</strong></p>
 </li>
 </ol>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"> 	TYPE=Ethernet                # 网卡类型：为以太网</span><br><span class="line">PROXY_METHOD=none            # 代理方式：关闭状态</span><br><span class="line">BROWSER_ONLY=no                	# 只是浏览器：否</span><br><span class="line">BOOTPROTO=dhcp                # 网卡的引导协议：DHCP[中文名称: 动态主机配置协议]</span><br><span class="line">DEFROUTE=yes                # 默认路由：是, 不明白的可以百度关键词 `默认路由`</span><br><span class="line">IPV4_FAILURE_FATAL=no        # 是不开启IPV4致命错误检测：否</span><br><span class="line">IPV6INIT=yes                # IPV6是否自动初始化: 是[不会有任何影响, 现在还没用到IPV6]</span><br><span class="line">IPV6_AUTOCONF=yes            # IPV6是否自动配置：是[不会有任何影响, 现在还没用到IPV6]</span><br><span class="line">IPV6_DEFROUTE=yes            # IPV6是否可以为默认路由：是[不会有任何影响, 现在还没用到IPV6]</span><br><span class="line">IPV6_FAILURE_FATAL=no        # 是不开启IPV6致命错误检测：否</span><br><span class="line">IPV6_ADDR_GEN_MODE=stable-privacy            # IPV6地址生成模型：stable-privacy [这只一种生成IPV6的策略]</span><br><span class="line">NAME=ens33                    # 网卡物理设备名称</span><br><span class="line">UUID=f47bde51-fa78-4f79-b68f-d5dd90cfc698    # 通用唯一识别码, 每一个网卡都会有, 不能重复, 否两台linux只有一台网卡可用</span><br><span class="line">DEVICE=ens33                    # 网卡设备名称, 必须和 `NAME` 值一样</span><br><span class="line">ONBOOT=no                        # 是否开机启动， 要想网卡开机就启动或通过 `systemctl restart network`控制网卡,必须设置为 `yes`</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"> 	TYPE=Ethernet                # 网卡类型：为以太网</span><br><span class="line">PROXY_METHOD=none            # 代理方式：关闭状态</span><br><span class="line">BROWSER_ONLY=no                	# 只是浏览器：否</span><br><span class="line">BOOTPROTO=dhcp                # 网卡的引导协议：DHCP[中文名称: 动态主机配置协议]</span><br><span class="line">DEFROUTE=yes                # 默认路由：是, 不明白的可以百度关键词 `默认路由`</span><br><span class="line">IPV4_FAILURE_FATAL=no        # 是不开启IPV4致命错误检测：否</span><br><span class="line">IPV6INIT=yes                # IPV6是否自动初始化: 是[不会有任何影响, 现在还没用到IPV6]</span><br><span class="line">IPV6_AUTOCONF=yes            # IPV6是否自动配置：是[不会有任何影响, 现在还没用到IPV6]</span><br><span class="line">IPV6_DEFROUTE=yes            # IPV6是否可以为默认路由：是[不会有任何影响, 现在还没用到IPV6]</span><br><span class="line">IPV6_FAILURE_FATAL=no        # 是不开启IPV6致命错误检测：否</span><br><span class="line">IPV6_ADDR_GEN_MODE=stable-privacy            # IPV6地址生成模型：stable-privacy [这只一种生成IPV6的策略]</span><br><span class="line">NAME=ens33                    # 网卡物理设备名称</span><br><span class="line">UUID=f47bde51-fa78-4f79-b68f-d5dd90cfc698    # 通用唯一识别码, 每一个网卡都会有, 不能重复, 否两台linux只有一台网卡可用</span><br><span class="line">DEVICE=ens33                    # 网卡设备名称, 必须和 `NAME` 值一样</span><br><span class="line">ONBOOT=no                        # 是否开机启动， 要想网卡开机就启动或通过 `systemctl restart network`控制网卡,必须设置为 `yes`</span><br></pre></td></tr></table></figure>
 
 <ol start="3">
-<li><p><strong>静态ip配置(网关和虚拟机网络配置一致,Ip同一网段)</strong><br><img src="https://img-blog.csdnimg.cn/20200922195002390.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIwMzQwNTQ3,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">HWADDR=A4:DB:<span class="number">30</span>:<span class="number">09</span>:DA:<span class="number">3F</span></span><br><span class="line">ESSID=<span class="number">0x412DE69A96E5BF83</span></span><br><span class="line">MODE=Managed</span><br><span class="line">KEY_MGMT=WPA-PSK</span><br><span class="line">TYPE=Wireless</span><br><span class="line">BOOTPROTO=<span class="keyword">static</span></span><br><span class="line">DEFROUTE=yes</span><br><span class="line">IPV4_FAILURE_FATAL=no</span><br><span class="line">IPV6INIT=yes</span><br><span class="line">IPV6_AUTOCONF=yes</span><br><span class="line">IPV6_DEFROUTE=yes</span><br><span class="line">IPV6_FAILURE_FATAL=no</span><br><span class="line">NAME=ens33</span><br><span class="line">UUID=<span class="number">4025</span>a9c0-d793-<span class="number">4120</span>-<span class="number">9</span>ea7-<span class="number">0</span>b799424ba4a</span><br><span class="line">ONBOOT=yes</span><br><span class="line">SECURITYMODE=open</span><br><span class="line">PEERDNS=yes</span><br><span class="line">PEERROUTES=yes</span><br><span class="line">IPV6_PEERDNS=yes</span><br><span class="line">IPV6_PEERROUTES=yes</span><br><span class="line">IPADDR=<span class="number">192.168</span>.<span class="number">3.251</span></span><br><span class="line">GATEWAY=<span class="number">192.168</span>.<span class="number">3.2</span></span><br><span class="line">NETMASK=<span class="number">255.255</span>.<span class="number">255.0</span></span><br><span class="line">DNS1=<span class="number">8.8</span>.<span class="number">8.8</span></span><br><span class="line">DNS2=<span class="number">114.114</span>.<span class="number">114.114</span></span><br></pre></td></tr></table></figure></li>
+<li><p><strong>静态ip配置(网关和虚拟机网络配置一致,Ip同一网段)</strong><br> <img src="https://img-blog.csdnimg.cn/20200922195002390.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIwMzQwNTQ3,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">HWADDR=A4:DB:<span class="number">30</span>:09:DA:<span class="number">3F</span></span><br><span class="line">ESSID=<span class="number">0x412DE69A96E5BF83</span></span><br><span class="line">MODE=Managed</span><br><span class="line">KEY_MGMT=WPA-PSK</span><br><span class="line">TYPE=Wireless</span><br><span class="line">BOOTPROTO=<span class="keyword">static</span></span><br><span class="line">DEFROUTE=yes</span><br><span class="line">IPV4_FAILURE_FATAL=no</span><br><span class="line">IPV6INIT=yes</span><br><span class="line">IPV6_AUTOCONF=yes</span><br><span class="line">IPV6_DEFROUTE=yes</span><br><span class="line">IPV6_FAILURE_FATAL=no</span><br><span class="line">NAME=ens33</span><br><span class="line">UUID=4025a9c0-d793-<span class="number">4120</span>-9ea7-0b799424ba4a</span><br><span class="line">ONBOOT=yes</span><br><span class="line">SECURITYMODE=open</span><br><span class="line">PEERDNS=yes</span><br><span class="line">PEERROUTES=yes</span><br><span class="line">IPV6_PEERDNS=yes</span><br><span class="line">IPV6_PEERROUTES=yes</span><br><span class="line">IPADDR=<span class="number">192.168</span><span class="number">.3</span><span class="number">.251</span></span><br><span class="line">GATEWAY=<span class="number">192.168</span><span class="number">.3</span><span class="number">.2</span></span><br><span class="line">NETMASK=<span class="number">255.255</span><span class="number">.255</span><span class="number">.0</span></span><br><span class="line">DNS1=<span class="number">8.8</span><span class="number">.8</span><span class="number">.8</span></span><br><span class="line">DNS2=<span class="number">114.114</span><span class="number">.114</span><span class="number">.114</span></span><br></pre></td></tr></table></figure></li>
 <li><p><strong>重启网卡 systemctl restart network</strong><br><img src="https://img-blog.csdnimg.cn/20200922195402872.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIwMzQwNTQ3,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
 </li>
 <li><p><strong>ping w<a target="_blank" rel="noopener" href="http://www.baidu.com/">www.baidu.com</a> 测试网络情况</strong><br><img src="https://img-blog.csdnimg.cn/20200922195449985.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIwMzQwNTQ3,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
@@ -338,6 +353,8 @@
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Arnold Shu"
+      src="/images/avatar/avatar.jpg">
   <p class="site-author-name" itemprop="name">Arnold Shu</p>
   <div class="site-description" itemprop="description">技术 生活 思考</div>
 </div>
@@ -391,8 +408,20 @@
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Arnold Shu</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+      <span class="post-meta-item-text">站点总字数：</span>
+    <span title="站点总字数">78k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">1:11</span>
 </div>
-  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
 
         
