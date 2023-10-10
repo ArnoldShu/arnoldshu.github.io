@@ -31,12 +31,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
+    "ignore_missing_gitignore": "true",
     "last_opened_file_path": "E:/arnoldshu.github.io",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "http.proxy",
     "vue.rearranger.settings.migration": "true"
   }
@@ -64,6 +68,7 @@
       <workItem from="1695887878154" duration="1185000" />
       <workItem from="1695889243654" duration="2350000" />
       <workItem from="1696833644269" duration="7188000" />
+      <workItem from="1696936792276" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="新主题发布">
       <option name="closed" value="true" />
