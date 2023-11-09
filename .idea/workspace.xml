@@ -5,94 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42ea0319-8b30-4164-9a1c-2a2138fc8700" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/10.413fd463.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/10.8e16b34a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/10.ad9647b9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/10.b02c4ace.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/11.40a3e162.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/11.b0db7932.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/11.de35e5e8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/12.10e065ad.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/12.7c4ecf3d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/12.f37f409d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/13.a3317551.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/13.a9e5ce7d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/13.ef53d9f6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/14.11f1b2fb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/14.2bebc077.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/14.31c495e4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/14.50d0c3bf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/14.7a264da8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/15.08af55b8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/15.191291a8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/15.a8c589ce.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/16.26c04da7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/16.acb889f8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/17.33f54eb0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/17.3db92726.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/17.ad30b514.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/18.392489e8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/19.45894f91.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/19.7311be74.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/19.a1d166ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/19.a36c36da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/19.eb162dfa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/19.fdd042cc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/2.218e8049.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/20.5b6906a0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/20.9d88beaa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/20.c94eee51.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/21.3772bc0c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/21.c7f99430.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/21.e1d5294b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/21.e7521903.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/22.546166a4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/22.e09e3fd0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/22.f71a63ad.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/23.18477306.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/23.6dd28860.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/24.ebd329b2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/25.002cb99d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/3.1098adfb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/6.3cd5e3dd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/6.bd850483.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/7.1fb2459d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/7.33a9de9d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/7.7ba2ee1f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/7.884fc532.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/8.3c04ee06.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/8.3e553932.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/8.42b96eb4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/9.57db019b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/9.7f869754.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/9.9e6ec629.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/app.0b8f9460.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/app.36340d29.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/app.b491d9ae.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/app.c42a8d3b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/app.d553b4d8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/app.e53c3237.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorites/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/favorites/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorites/ss/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/favorites/ss/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/friends/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/friends/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/more/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/more/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/notes/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/113bc5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/113bc5/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/374876/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/374876/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/44097e/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/44097e/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/4c0f63/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/4c0f63/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/8ae20e/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/8ae20e/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/993cda/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/993cda/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tags/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/technology/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/technology/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,21 +55,6 @@
       <recent name="E:\arnoldshu.github.io" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="arnoldshu.github.io" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="arnoldshu.github.io" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -177,6 +75,9 @@
       <workItem from="1698027168539" duration="63000" />
       <workItem from="1698027659506" duration="590000" />
       <workItem from="1698049981891" duration="52000" />
+      <workItem from="1698196789828" duration="71000" />
+      <workItem from="1699490971614" duration="3000" />
+      <workItem from="1699490981802" duration="69000" />
     </task>
     <task id="LOCAL-00001" summary="新主题发布">
       <option name="closed" value="true" />
