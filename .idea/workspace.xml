@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="42ea0319-8b30-4164-9a1c-2a2138fc8700" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="ProjectId" id="2VsqCCSsE8ld2uvnlT3ygmrp6rW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/arnoldshu.github.io&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\arnoldshu.github.io" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42ea0319-8b30-4164-9a1c-2a2138fc8700" name="Changes" comment="" />
+      <created>1695635006338</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695635006338</updated>
+      <workItem from="1695635008688" duration="1203000" />
+      <workItem from="1695636229252" duration="10536000" />
+      <workItem from="1695881926302" duration="398000" />
+      <workItem from="1695882681782" duration="13000" />
+      <workItem from="1695887878154" duration="1185000" />
+      <workItem from="1695889243654" duration="2350000" />
+      <workItem from="1696833644269" duration="7188000" />
+      <workItem from="1696936792276" duration="26000" />
+      <workItem from="1697427866320" duration="30000" />
+      <workItem from="1698027168539" duration="63000" />
+      <workItem from="1698027659506" duration="590000" />
+      <workItem from="1698049981891" duration="52000" />
+      <workItem from="1698196789828" duration="71000" />
+      <workItem from="1699490971614" duration="3000" />
+      <workItem from="1699490981802" duration="69000" />
+    </task>
+    <task id="LOCAL-00001" summary="新主题发布">
+      <option name="closed" value="true" />
+      <created>1695635641228</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695635641228</updated>
+    </task>
+    <task id="LOCAL-00002" summary="新主题发布">
+      <option name="closed" value="true" />
+      <created>1695635880786</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695635880786</updated>
+    </task>
+    <task id="LOCAL-00003" summary="新主题发布">
+      <option name="closed" value="true" />
+      <created>1695636015084</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695636015084</updated>
+    </task>
+    <task id="LOCAL-00004" summary="新主题发布">
+      <option name="closed" value="true" />
+      <created>1695636548469</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695636548469</updated>
+    </task>
+    <task id="LOCAL-00005" summary="域名修改">
+      <option name="closed" value="true" />
+      <created>1695646459148</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695646459148</updated>
+    </task>
+    <task id="LOCAL-00006" summary="第二次提交">
+      <option name="closed" value="true" />
+      <created>1695647060488</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695647060488</updated>
+    </task>
+    <task id="LOCAL-00007" summary="第二次提交">
+      <option name="closed" value="true" />
+      <created>1695693185715</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1695693185715</updated>
+    </task>
+    <task id="LOCAL-00008" summary="提交代码">
+      <option name="closed" value="true" />
+      <created>1695881948825</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1695881948825</updated>
+    </task>
+    <task id="LOCAL-00009" summary="提交代码">
+      <option name="closed" value="true" />
+      <created>1695890132315</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695890132315</updated>
+    </task>
+    <task id="LOCAL-00010" summary="提交代码">
+      <option name="closed" value="true" />
+      <created>1695891249459</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1695891249459</updated>
+    </task>
+    <task id="LOCAL-00011" summary="提交代码">
+      <option name="closed" value="true" />
+      <created>1696833714405</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1696833714405</updated>
+    </task>
+    <task id="LOCAL-00012" summary="提交代码">
+      <option name="closed" value="true" />
+      <created>1696836105723</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1696836105723</updated>
+    </task>
+    <task id="LOCAL-00013" summary="提交代码">
+      <option name="closed" value="true" />
+      <created>1696836296486</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1696836296486</updated>
+    </task>
+    <task id="LOCAL-00014" summary="提交代码">
+      <option name="closed" value="true" />
+      <created>1696836391824</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1696836391824</updated>
+    </task>
+    <task id="LOCAL-00015" summary="提交代码">
+      <option name="closed" value="true" />
+      <created>1696837250666</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1696837250666</updated>
+    </task>
+    <task id="LOCAL-00016" summary="提交代码">
+      <option name="closed" value="true" />
+      <created>1696837405329</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1696837405329</updated>
+    </task>
+    <task id="LOCAL-00017" summary="提交代码">
+      <option name="closed" value="true" />
+      <created>1696837625151</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1696837625151</updated>
+    </task>
+    <task id="LOCAL-00018" summary="提交代码">
+      <option name="closed" value="true" />
+      <created>1696837762836</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1696837762836</updated>
+    </task>
+    <task id="LOCAL-00019" summary="提交代码">
+      <option name="closed" value="true" />
+      <created>1696838344008</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1696838344008</updated>
+    </task>
+    <task id="LOCAL-00020" summary="提交代码">
+      <option name="closed" value="true" />
+      <created>1696839045513</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1696839045513</updated>
+    </task>
+    <task id="LOCAL-00021" summary="提交代码">
+      <option name="closed" value="true" />
+      <created>1696839115503</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1696839115503</updated>
+    </task>
+    <task id="LOCAL-00022" summary="提交代码">
+      <option name="closed" value="true" />
+      <created>1696839343637</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1696839343637</updated>
+    </task>
+    <task id="LOCAL-00023" summary="提交代码">
+      <option name="closed" value="true" />
+      <created>1696839673882</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1696839673882</updated>
+    </task>
+    <task id="LOCAL-00024" summary="提交代码">
+      <option name="closed" value="true" />
+      <created>1696839880500</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1696839880500</updated>
+    </task>
+    <task id="LOCAL-00025" summary="提交代码">
+      <option name="closed" value="true" />
+      <created>1696840895359</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1696840895359</updated>
+    </task>
+    <task id="LOCAL-00026" summary="提交代码">
+      <option name="closed" value="true" />
+      <created>1696841110435</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1696841110435</updated>
+    </task>
+    <task id="LOCAL-00027" summary="提交代码">
+      <option name="closed" value="true" />
+      <created>1696841127500</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1696841127500</updated>
+    </task>
+    <task id="LOCAL-00028" summary="提交代码">
+      <option name="closed" value="true" />
+      <created>1698027182295</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1698027182295</updated>
+    </task>
+    <task id="LOCAL-00029" summary="提交代码">
+      <option name="closed" value="true" />
+      <created>1698027674008</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1698027674008</updated>
+    </task>
+    <task id="LOCAL-00030" summary="提交代码">
+      <option name="closed" value="true" />
+      <created>1698027975082</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1698027975082</updated>
+    </task>
+    <task id="LOCAL-00031" summary="提交代码">
+      <option name="closed" value="true" />
+      <created>1698028152905</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1698028152905</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="新主题发布" />
+    <MESSAGE value="域名修改" />
+    <MESSAGE value="第二次提交" />
+    <MESSAGE value="提交代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交代码" />
+  </component>
+</project>
